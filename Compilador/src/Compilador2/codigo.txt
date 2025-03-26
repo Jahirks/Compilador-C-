@@ -1,0 +1,17 @@
+int main() {
+
+int x = 5;    
+    int z = 2 + 3;     
+    int number;
+    cout << "Introduce un numero: ";
+    cin >> number;
+
+    while (number > 0) {
+        if (number > 10) {
+            cout << "El numero es mayor a 10.";
+        } else {
+            cout << "El numero es menor a 10.";
+        }
+    }
+    return 0;
+}
